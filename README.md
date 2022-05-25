@@ -9,7 +9,7 @@
 
 #### go to the directory /etc/puppetlabs/code/environments/producation/modules 
 #### create a new module like in the previous guide by just using 
-'''vim bashrc/manifests/init.pp''' 
+ ```vim bashrc/manifests/init.pp ```
 #### this creates the module bashrc and the manifests directory with the init file. 
 
 #### in the init file you can copy paste what my attached init file on the repo contains. 

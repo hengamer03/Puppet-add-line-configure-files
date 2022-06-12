@@ -35,4 +35,7 @@ node 'puppetagent01.example.com' {
   ```puppet agent -t ```
  #### after that is done, exit root, type  ```bash ``` and now the cowsay should pop up atomatically.
  
+ #### If you are going to use stdlib file_line for other environments make sure to copy stdlib from either the productions module or data directory into
+ #### the corrosponding directory on the new environments directories. 
+ 
  ### Now you have learned a basic way puppet can manipulate and edit files. this is very powerful and can be used to add configuration lots of clients. 
